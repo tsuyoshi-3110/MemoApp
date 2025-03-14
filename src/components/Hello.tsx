@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, type TextStyle} from "react-native"
+import { View, Text, StyleSheet, type TextStyle } from 'react-native'
 
 interface Props {
   children: string
@@ -11,18 +11,19 @@ const Hello = (props: Props): JSX.Element => {
   return (
     <View>
       <Text style={[styles.text, style]}>
-        Hello {children}{bang === true ? "!" : ""}
-        </Text>
+        Hello {children}
+        {bang === true ? '!' : ''}
+      </Text>
     </View>
   )
 }
 
 const styles = StyleSheet.create({
   text: {
-    color: "#ffffff",
-    backgroundColor: "blue",
+    color: '#ffffff',
+    backgroundColor: 'blue',
     fontSize: 40,
-    fontWeight: "bold",
+    fontWeight: 'bold',
     padding: 16
   }
 })

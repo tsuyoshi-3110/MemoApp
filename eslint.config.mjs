@@ -1,7 +1,7 @@
-import globals from "globals"
-import pluginJs from "@eslint/js"
-import tseslint from "typescript-eslint"
-import pluginReactConfig from "eslint-plugin-react/configs/recommended.js"
+import globals from 'globals'
+import pluginJs from '@eslint/js'
+import tseslint from 'typescript-eslint'
+import pluginReactConfig from 'eslint-plugin-react/configs/recommended.js'
 
 export default [
   {
@@ -15,9 +15,9 @@ export default [
   // rules ここから -----------------------
   {
     rules: {
-      "react/react-in-jsx-scope": 0,
-      semi: [2, "never"],
-      "comma-dangle": [2, "never"]
+      'react/react-in-jsx-scope': 0,
+      semi: [2, 'never'],
+      'comma-dangle': [2, 'never']
     }
   }
   // rules ここまで -----------------------
